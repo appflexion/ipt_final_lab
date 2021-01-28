@@ -1,0 +1,71 @@
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+vendor/*
+tests/*
+.idea/*
+
+DB/*
+
+
+
+backend/web/UserImages/*
+backend/web/UserIntro/*
+common/config/main-local.php
+backend/config/main-local.php
+frontend/config/main-local.php
+
+admin/assets/*
+!admin/assets/.gitkeep 
+
+backend/web/assets/*
+!backend/assets/.gitkeep 
+
+frontend/runtime/*
+!frontend/runtime/.gitignore 
+
+backend/runtime/*
+!backend/runtime/.gitignore 
+
+backend/web/courseUploads/source/*
+backend/web/courseUploads/thumbs/*
+backend/web/courseUploads/chapters/*
+backend/web/courseUploads/covers/*
+backend/web/courseUploads/exercise/*
+backend/web/courseUploads/transcripts/*
+
+# yii console command
+/yii
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer itself is not needed
+composer.phar
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+sendgrid.env
+
+tests/_output/*
+tests/_output/*
